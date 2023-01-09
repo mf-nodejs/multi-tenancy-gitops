@@ -14,7 +14,7 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: sample-app/config/argocd/staging
+    path: sample-app/argocd/staging
   syncPolicy:
     automated:
       prune: true
